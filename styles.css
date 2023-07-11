@@ -68,9 +68,7 @@ line-height: 30px;
 
 
 }
-.photos .main-div div{
-    display: flex;
-}
+
 .photos >  .main-div > div > .pic1{
     
     width: 464px;
@@ -103,7 +101,7 @@ line-height: 30px;
 
 
 }
-main .photos .main-div div figcaption{
+main .photos .main-div div p{
     text-decoration-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif ;
     align-items:center;
