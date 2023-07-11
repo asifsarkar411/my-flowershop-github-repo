@@ -35,6 +35,8 @@ body .banner button{
 
 
 }*/
+
+/*header css */
 .banner .header{
     background-color:rgba(229, 84, 115, 0.10);
 
@@ -42,9 +44,9 @@ body .banner button{
     justify-content: center;
     align-items: center;
 }
-.btn{
+.banner .header div .button{
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #E55473;
     border: 0;
     color: white;
     font-size: 20px;
@@ -66,6 +68,8 @@ body .banner button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+/*main css*/
 main > .main > div > h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #272727;
@@ -92,48 +96,241 @@ font-weight: 400;
 line-height: 30px;
 }
 
-.photos{
+.photos .main-div{
+    margin:auto;
+
     display: flex;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    justify-content: space-between;
 
 
 }
-.photos > .pic1{
+.photos .main-div div{
+    display: flex;
+}
+.photos >  .main-div > div > .pic1{
+    
     width: 464px;
     height: 538px;
     flex-shrink: 0;
     border-radius: 500px 500px 10px 10px;
     background: rgba(167, 33, 98, 0.15);
+    
 
 
 }
-.photos > .pic2{
+.photos >  .main-div > div > .pic2{
     width: 464px;
     height: 538px;
     flex-shrink: 0;
     border-radius: 500px 500px 10px 10px;
     background: rgba(5, 151, 160, 0.15);
+    
 
 
 }
-.photos > .pic3{
+.photos >  .main-div > div > .pic3{
+    
     width: 464px;
     height: 538px;
     flex-shrink: 0;
     border-radius: 500px 500px 10px 10px;
     background: rgba(71, 125, 17, 0.15);
+    
 
 
 }
-a{
-    text-align: end;
-    text-decoration-color: #d40afd;
+
+
+section .background{
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    padding-block-end: 20px;
+}
+    
+
+.icn .background{
+    padding-left: 250;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 1440px;
+    height: 320px;
+
+
+}
+.icn .background div figcaption{
+    text-decoration-color: black;
+
+
+}
+
+/*hot deals css*/
+
+.hot-deals > div{
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hot-deals div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+.hot-deals div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.hot-deals .bck .btn2{
+    margin-left: 100px;
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.hot-deals .bck img{
+    padding-left: 70px;
+    width: 318px;
+    height: 420px;
+}
+/*hot deals end*/
+
+/*instagram start*/
+.instagram .div2 div{
+    
+
+}
+.instagram .div2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272727;
+    text-align: center;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+main .instagram .div2 div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+flex-direction: column;
+flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+.instagram .div2 .middle-img{
+    display: flex;
+    align-content: center;
+    padding-left: 250px;
+}
+
+
+.instagram .div2 .middle-img .pic2{
+
+
+}
+.instagram .div2 .middle-img .pic2{
+ 
+
+}
+.instagram .div2 .middle-img .pic3{
+
+}
+.instagram .div2 .middle-img .pic4{
+
+}
+
+/*searchbar start*/
+
+.search-bar{
+
+    background-image: url(..);
+    width: 1440px;
+    height: 449px;
+    margin-left: 300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+
+    
+}
+.search-bar .deals h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272727;
+    text-align: center;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.search-bar .deals h3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+flex-direction: column;
+flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.search-bar .deals .sub{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.search-bar .deals .srcb-css{
+
+    margin-left: 600px;
+    width: 0px;
+height: 300px;
+border-radius: 8px;
+background: #FFF;
+}
+
+.search-bar .deals .text .btn-bar-mix{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:unset;
 }
 
 
 
-
-
+/*footer css*/
 footer{
     width: 1922px;
 height: 449px;
@@ -141,12 +338,13 @@ flex-shrink: 0;
     background-color: black;
 }
 footer div h2{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 footer > div > h3{
     color: rgba(255, 255, 255, 0.90);
 text-align: center;
-font-family: Lato;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -155,7 +353,7 @@ line-height: 30px;
 footer div h4{
     color: rgba(255, 255, 255, 0.40);
 text-align: center;
-font-family: Lato;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
